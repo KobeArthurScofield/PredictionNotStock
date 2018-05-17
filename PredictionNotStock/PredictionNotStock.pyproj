@@ -21,7 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="llib\analyzecore.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="llib\iodp.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="llib\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PredictionNotStock.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="llib\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
