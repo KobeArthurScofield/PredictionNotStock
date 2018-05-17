@@ -12,10 +12,11 @@ import matplotlib.pyplot as mtpl
 def filepath_trim(path):
     """
     Trimming Path to prevent unexpected quotes problem.
-    Warning: It will remove the first char and the last char in the string.
     """
-    if ('"' in path) or ("'" in path):
-        path = path[1:-1]   # Remove quotes in the head and in the end.
+    if (path[0] == '"') or (path[0] == "'"):
+        path = path[1:]
+    if (path[-1] == '"') or (path[-1] == "'"):
+        path = path[:-1]
     return path
 #
 
