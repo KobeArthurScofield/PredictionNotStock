@@ -32,9 +32,9 @@ def dget_csv_data(file_name, x_data, y_data):
     # print(data)
     X_parameter = []
     Y_parameter = []
-    for single_square_feet ,single_price_value in zip(data[x_data],data[y_data]):   # To pack them all and send data to two variables
-        X_parameter.append([float(single_square_feet)]) # Parameter required (and I don't know why)
-        Y_parameter.append(float(single_price_value))
+    for xdt ,ydt in zip(data[x_data], data[y_data]):   # To pack them all and send data to two variables
+        X_parameter.append([float(xdt)]) # Parameter required (and I don't know why)
+        Y_parameter.append(float(ydt))
     # print(X_parameter)
     # print(Y_parameter)
     return X_parameter,Y_parameter
