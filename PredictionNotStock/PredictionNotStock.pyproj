@@ -34,6 +34,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="llib\" />
+    <Folder Include="TestData\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataChoosingReason.md">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="TestData\datasheet-Trimmed.csv" />
+    <Content Include="TestData\datasheet.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
