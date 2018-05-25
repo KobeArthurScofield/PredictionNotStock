@@ -1,0 +1,7 @@
+Prediction Result
+
+Using File: datasheet.csv
+Lowest: 25047, Average: 28436
+
+Using File: datasheet-Trimmed.csv
+Lowest: 28721, Average: 32573

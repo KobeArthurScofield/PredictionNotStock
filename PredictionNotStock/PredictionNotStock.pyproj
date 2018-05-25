@@ -40,6 +40,9 @@
     <Content Include="DataChoosingReason.md">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="PredictionResult.txt">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="TestData\datasheet-Trimmed.csv" />
     <Content Include="TestData\datasheet.csv" />
   </ItemGroup>
